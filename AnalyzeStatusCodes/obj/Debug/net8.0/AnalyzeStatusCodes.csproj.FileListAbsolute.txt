@@ -1,0 +1,14 @@
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\bin\Debug\net8.0\AnalyzeStatusCodes.exe
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\bin\Debug\net8.0\AnalyzeStatusCodes.deps.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\bin\Debug\net8.0\AnalyzeStatusCodes.runtimeconfig.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\bin\Debug\net8.0\AnalyzeStatusCodes.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\bin\Debug\net8.0\AnalyzeStatusCodes.pdb
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\obj\Debug\net8.0\AnalyzeStatusCodes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\obj\Debug\net8.0\AnalyzeStatusCodes.AssemblyInfoInputs.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\obj\Debug\net8.0\AnalyzeStatusCodes.AssemblyInfo.cs
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\obj\Debug\net8.0\AnalyzeStatusCodes.csproj.CoreCompileInputs.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\obj\Debug\net8.0\AnalyzeStatusCodes.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\obj\Debug\net8.0\refint\AnalyzeStatusCodes.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\obj\Debug\net8.0\AnalyzeStatusCodes.pdb
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\obj\Debug\net8.0\AnalyzeStatusCodes.genruntimeconfig.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeStatusCodes\obj\Debug\net8.0\ref\AnalyzeStatusCodes.dll
