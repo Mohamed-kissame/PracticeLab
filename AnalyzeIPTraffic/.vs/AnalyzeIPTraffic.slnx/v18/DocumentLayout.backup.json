@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\AnalyzeIPTraffic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F72D116F-0BF3-42EB-B40D-3F9D414C8A06}|AnalyzeIPTraffic.csproj|c:\\users\\mkiss\\onedrive\\bureau\\practicelab\\analyzeiptraffic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F72D116F-0BF3-42EB-B40D-3F9D414C8A06}|AnalyzeIPTraffic.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32903E1B-D0B9-EC47-FFA6-B3DE51350A34}|AnalyzeIPTraffic.csproj|c:\\users\\mkiss\\onedrive\\bureau\\practicelab\\analyzeiptraffic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32903E1B-D0B9-EC47-FFA6-B3DE51350A34}|AnalyzeIPTraffic.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,9 +42,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\AnalyzeIPTraffic\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\AnalyzeIPTraffic\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\AnalyzeIPTraffic\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-21T17:21:58.515Z",
               "EditorCaption": ""

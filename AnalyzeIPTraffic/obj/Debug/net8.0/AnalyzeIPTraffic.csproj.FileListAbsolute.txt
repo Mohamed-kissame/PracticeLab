@@ -1,0 +1,15 @@
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\bin\Debug\net8.0\AnalyzeIPTraffic.exe
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\bin\Debug\net8.0\AnalyzeIPTraffic.deps.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\bin\Debug\net8.0\AnalyzeIPTraffic.runtimeconfig.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\bin\Debug\net8.0\AnalyzeIPTraffic.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\bin\Debug\net8.0\AnalyzeIPTraffic.pdb
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\obj\Debug\net8.0\AnalyzeIPTraffic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\obj\Debug\net8.0\AnalyzeIPTraffic.AssemblyInfoInputs.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\obj\Debug\net8.0\AnalyzeIPTraffic.AssemblyInfo.cs
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\obj\Debug\net8.0\AnalyzeIPTraffic.csproj.CoreCompileInputs.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\obj\Debug\net8.0\AnalyzeIPTraffic.sourcelink.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\obj\Debug\net8.0\AnalyzeIPTraffic.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\obj\Debug\net8.0\refint\AnalyzeIPTraffic.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\obj\Debug\net8.0\AnalyzeIPTraffic.pdb
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\obj\Debug\net8.0\AnalyzeIPTraffic.genruntimeconfig.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\AnalyzeIPTraffic\obj\Debug\net8.0\ref\AnalyzeIPTraffic.dll

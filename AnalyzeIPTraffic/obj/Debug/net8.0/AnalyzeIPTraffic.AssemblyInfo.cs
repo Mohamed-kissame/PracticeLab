@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnalyzeIPTraffic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25f2afdd9982b45c4abeec4c2f41f33e6b50065a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b928e6dfc8769ca12750c4d1a1e9445c5653af3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnalyzeIPTraffic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnalyzeIPTraffic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

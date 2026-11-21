@@ -19,6 +19,15 @@ class Program
           "10.0.0.5"
       };
 
+         var results = AnalyzeIPTraffic(ipAddresses);
+
+         foreach(var result in results)
+        {
+
+            Console.WriteLine($"{result.Key}    -> {result.Value}");
+
+        }
+      
 
 
     }
@@ -34,9 +43,9 @@ class Program
         foreach (var Ip in IpAdresses)
         {
 
-            if (results.ContainsKey(Ip))
+            if (results.TryGetValue(Ip , out int count))
             {
-                results[Ip]++;
+                results[Ip] = count + 1;
             }
             else
             {
