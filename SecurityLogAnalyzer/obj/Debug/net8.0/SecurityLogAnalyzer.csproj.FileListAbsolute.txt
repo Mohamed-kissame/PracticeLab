@@ -1,0 +1,15 @@
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\bin\Debug\net8.0\SecurityLogAnalyzer.exe
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\bin\Debug\net8.0\SecurityLogAnalyzer.deps.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\bin\Debug\net8.0\SecurityLogAnalyzer.runtimeconfig.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\bin\Debug\net8.0\SecurityLogAnalyzer.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\bin\Debug\net8.0\SecurityLogAnalyzer.pdb
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\obj\Debug\net8.0\SecurityLogAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\obj\Debug\net8.0\SecurityLogAnalyzer.AssemblyInfoInputs.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\obj\Debug\net8.0\SecurityLogAnalyzer.AssemblyInfo.cs
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\obj\Debug\net8.0\SecurityLogAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\obj\Debug\net8.0\SecurityLogAnalyzer.sourcelink.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\obj\Debug\net8.0\SecurityLogAnalyzer.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\obj\Debug\net8.0\refint\SecurityLogAnalyzer.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\obj\Debug\net8.0\SecurityLogAnalyzer.pdb
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\obj\Debug\net8.0\SecurityLogAnalyzer.genruntimeconfig.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\SecurityLogAnalyzer\obj\Debug\net8.0\ref\SecurityLogAnalyzer.dll
