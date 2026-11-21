@@ -53,9 +53,40 @@ class Program
 
     }
 
-    static SecurityLogReport AnalyzeSecurityLogs()
+    static SecurityLogReport AnalyzeSecurityLogs(List<Log> logs)
     {
 
+        ArgumentNullException.ThrowIfNull(logs);
+
+        var TotalLogs = logs.Count;
+
+        var CountUniqueIpAddresses = new HashSet<Log>(logs).Count;
+
+        var CountFailedReq = logs.Count(l => l.StatusCode >= 400 && l.StatusCode <= 599);
+
+        var CountSlowReq = logs.Count(l => l.ResponseTime > 300);
+
+        var AvgReqTime = logs.Average(l => l.ResponseTime);
+
+        var ReqByIp = logs.GroupBy(l => l.IpAdress).ToDictionary(g => g.Key, g => g.Count());
+
+        var IpWithTwoFailedReq = logs.Where(l => l.StatusCode >= 400 && l.StatusCode <= 599).GroupBy(l => l.IpAdress).Where(g => g.Count() >= 2).Select(g => g.Key).ToList();
+
+        return new SecurityLogReport
+        {
+
+            TotalRequests = TotalLogs,
+            TotalUniqueIp = TotalLogs,
+            CountFailedRequests = CountFailedReq,
+            CountOfSlowRequests = CountSlowReq,
+            AvgResponseTime = AvgReqTime,
+            NumberOfRequestsByIp = ReqByIp,
+            IpAddressesAtLeastTwoFailedReq = IpWithTwoFailedReq
+
+        };
+
     }
+
+
 
 }

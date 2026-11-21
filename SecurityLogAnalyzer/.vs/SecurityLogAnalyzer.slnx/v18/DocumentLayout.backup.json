@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\SecurityLogAnalyzer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFF98A16-2F53-4FBD-90F9-91A12DAE0043}|SecurityLogAnalyzer.csproj|c:\\users\\mkiss\\onedrive\\bureau\\practicelab\\securityloganalyzer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFF98A16-2F53-4FBD-90F9-91A12DAE0043}|SecurityLogAnalyzer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA0EFEB9-9567-12F7-6FAF-D05373322B14}|SecurityLogAnalyzer.csproj|c:\\users\\mkiss\\onedrive\\bureau\\practicelab\\securityloganalyzer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0EFEB9-9567-12F7-6FAF-D05373322B14}|SecurityLogAnalyzer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\SecurityLogAnalyzer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwBsAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-21T20:25:22.359Z",
               "EditorCaption": ""
