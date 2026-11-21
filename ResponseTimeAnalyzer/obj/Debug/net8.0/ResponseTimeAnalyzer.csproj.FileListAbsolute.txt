@@ -1,0 +1,15 @@
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\bin\Debug\net8.0\ResponseTimeAnalyzer.exe
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\bin\Debug\net8.0\ResponseTimeAnalyzer.deps.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\bin\Debug\net8.0\ResponseTimeAnalyzer.runtimeconfig.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\bin\Debug\net8.0\ResponseTimeAnalyzer.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\bin\Debug\net8.0\ResponseTimeAnalyzer.pdb
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\obj\Debug\net8.0\ResponseTimeAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\obj\Debug\net8.0\ResponseTimeAnalyzer.AssemblyInfoInputs.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\obj\Debug\net8.0\ResponseTimeAnalyzer.AssemblyInfo.cs
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\obj\Debug\net8.0\ResponseTimeAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\obj\Debug\net8.0\ResponseTimeAnalyzer.sourcelink.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\obj\Debug\net8.0\ResponseTimeAnalyzer.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\obj\Debug\net8.0\refint\ResponseTimeAnalyzer.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\obj\Debug\net8.0\ResponseTimeAnalyzer.pdb
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\obj\Debug\net8.0\ResponseTimeAnalyzer.genruntimeconfig.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\ResponseTimeAnalyzer\obj\Debug\net8.0\ref\ResponseTimeAnalyzer.dll
