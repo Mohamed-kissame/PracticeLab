@@ -1,0 +1,32 @@
+[
+  {
+    "IPAddress": "192.168.1.10",
+    "StatusCode": 200,
+    "ResponseTime": 120
+  },
+  {
+    "IPAddress": "192.168.1.10",
+    "StatusCode": 404,
+    "ResponseTime": 450
+  },
+  {
+    "IPAddress": "192.168.1.10",
+    "StatusCode": 500,
+    "ResponseTime": 600
+  },
+  {
+    "IPAddress": "10.0.0.5",
+    "StatusCode": 404,
+    "ResponseTime": 320
+  },
+  {
+    "IPAddress": "",
+    "StatusCode": 200,
+    "ResponseTime": 100
+  },
+  {
+    "IPAddress": "172.16.0.2",
+    "StatusCode": 500,
+    "ResponseTime": -50
+  }
+]

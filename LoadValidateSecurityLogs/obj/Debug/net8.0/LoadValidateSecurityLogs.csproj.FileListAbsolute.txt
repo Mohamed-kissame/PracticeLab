@@ -1,0 +1,16 @@
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\bin\Debug\net8.0\LoadValidateSecurityLogs.exe
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\bin\Debug\net8.0\LoadValidateSecurityLogs.deps.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\bin\Debug\net8.0\LoadValidateSecurityLogs.runtimeconfig.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\bin\Debug\net8.0\LoadValidateSecurityLogs.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\bin\Debug\net8.0\LoadValidateSecurityLogs.pdb
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\obj\Debug\net8.0\LoadValidateSecurityLogs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\obj\Debug\net8.0\LoadValidateSecurityLogs.AssemblyInfoInputs.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\obj\Debug\net8.0\LoadValidateSecurityLogs.AssemblyInfo.cs
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\obj\Debug\net8.0\LoadValidateSecurityLogs.csproj.CoreCompileInputs.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\obj\Debug\net8.0\LoadValidateSecurityLogs.sourcelink.json
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\obj\Debug\net8.0\LoadValidateSecurityLogs.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\obj\Debug\net8.0\refint\LoadValidateSecurityLogs.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\obj\Debug\net8.0\LoadValidateSecurityLogs.pdb
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\obj\Debug\net8.0\LoadValidateSecurityLogs.genruntimeconfig.cache
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\obj\Debug\net8.0\ref\LoadValidateSecurityLogs.dll
+C:\Users\mkiss\OneDrive\Bureau\PracticeLab\LoadValidateSecurityLogs\bin\Debug\net8.0\security_logs.json

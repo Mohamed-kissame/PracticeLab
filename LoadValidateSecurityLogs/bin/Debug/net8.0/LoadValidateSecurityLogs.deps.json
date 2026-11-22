@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LoadValidateSecurityLogs/1.0.0": {
+        "runtime": {
+          "LoadValidateSecurityLogs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LoadValidateSecurityLogs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

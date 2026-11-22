@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoadValidateSecurityLogs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6369487084ad0638c8bc597a4a3b3d8b1c960a54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9790bc4fde6cb781fe8f9c95e1ca7731d8f7500a")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoadValidateSecurityLogs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoadValidateSecurityLogs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

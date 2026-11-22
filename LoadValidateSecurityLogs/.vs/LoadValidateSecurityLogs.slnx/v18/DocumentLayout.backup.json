@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9C8B85F-ED40-4E03-84B1-FF5C0DD73D96}|LoadValidateSecurityLogs.csproj|c:\\users\\mkiss\\onedrive\\bureau\\practicelab\\loadvalidatesecuritylogs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9C8B85F-ED40-4E03-84B1-FF5C0DD73D96}|LoadValidateSecurityLogs.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|c:\\users\\mkiss\\onedrive\\bureau\\practicelab\\loadvalidatesecuritylogs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|c:\\users\\mkiss\\onedrive\\bureau\\practicelab\\loadvalidatesecuritylogs\\loadvalidatesecuritylogs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|solutionrelative:loadvalidatesecuritylogs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|c:\\users\\mkiss\\onedrive\\bureau\\practicelab\\loadvalidatesecuritylogs\\securitylogreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|solutionrelative:securitylogreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|c:\\users\\mkiss\\onedrive\\bureau\\practicelab\\loadvalidatesecuritylogs\\security_logs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|solutionrelative:security_logs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|c:\\users\\mkiss\\onedrive\\bureau\\practicelab\\loadvalidatesecuritylogs\\securitylogloadresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|solutionrelative:securitylogloadresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|c:\\users\\mkiss\\onedrive\\bureau\\practicelab\\loadvalidatesecuritylogs\\securitylogloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|solutionrelative:securitylogloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|c:\\users\\mkiss\\onedrive\\bureau\\practicelab\\loadvalidatesecuritylogs\\httplog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F76CC4BB-C337-12AE-6455-7AD04659FC89}|LoadValidateSecurityLogs.csproj|solutionrelative:httplog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +62,90 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoadValidateSecurityLogs",
+              "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\LoadValidateSecurityLogs.csproj",
+              "RelativeDocumentMoniker": "LoadValidateSecurityLogs.csproj",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\LoadValidateSecurityLogs.csproj",
+              "RelativeToolTip": "LoadValidateSecurityLogs.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-22T17:15:30.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "security_logs.json",
+              "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\security_logs.json",
+              "RelativeDocumentMoniker": "security_logs.json",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\security_logs.json",
+              "RelativeToolTip": "security_logs.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-22T17:14:06.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SecurityLogReport.cs",
+              "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\SecurityLogReport.cs",
+              "RelativeDocumentMoniker": "SecurityLogReport.cs",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\SecurityLogReport.cs",
+              "RelativeToolTip": "SecurityLogReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-22T17:09:14.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SecurityLogLoadResult.cs",
+              "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\SecurityLogLoadResult.cs",
+              "RelativeDocumentMoniker": "SecurityLogLoadResult.cs",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\SecurityLogLoadResult.cs",
+              "RelativeToolTip": "SecurityLogLoadResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-22T17:07:48.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SecurityLogLoader.cs",
+              "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\SecurityLogLoader.cs",
+              "RelativeDocumentMoniker": "SecurityLogLoader.cs",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\SecurityLogLoader.cs",
+              "RelativeToolTip": "SecurityLogLoader.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvwkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-22T16:45:09.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HttpLog.cs",
+              "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\HttpLog.cs",
+              "RelativeDocumentMoniker": "HttpLog.cs",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\HttpLog.cs",
+              "RelativeToolTip": "HttpLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-22T16:41:35.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\PracticeLab\\LoadValidateSecurityLogs\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-22T16:38:58.946Z",
               "EditorCaption": ""
