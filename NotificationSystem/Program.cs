@@ -1,32 +1,51 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 
 public interface INotificationSender
 {
-
-    public void Send(string message);
-    
+    void Send(string message);
 }
 
-class EmailSender : INotificationSender
+
+public class EmailSender : INotificationSender
 {
     public void Send(string message)
     {
-        Console.WriteLine($"This a Notify from your Email to tell u : {message}");
+        throw new InvalidOperationException("Email server unavailable");
     }
 }
 
-class SmsSender : INotificationSender
-{
 
+public class SmsSender : INotificationSender
+{
     public void Send(string message)
     {
-        Console.WriteLine($"This Sms it send to u to notify u that : {message}");
+        Console.WriteLine($"SMS sent: {message}");
     }
-
 }
 
-class NotificationService
+public class PushSender : INotificationSender
+{
+    public void Send(string message)
+    {
+        Console.WriteLine($"Push notification sent: {message}");
+    }
+}
+
+
+public class NotificationReport
+{
+    public int TotalAttempts { get; set; }
+    public int SuccessfulCount { get; set; }
+    public int FailedCount { get; set; }
+
+    public List<string> Errors { get; set; } = new();
+}
+
+
+public class NotificationService
 {
     private readonly List<INotificationSender> _senders = new();
 
@@ -34,7 +53,8 @@ class NotificationService
     {
         ArgumentNullException.ThrowIfNull(sender);
 
-        if(_senders.Contains(sender) )
+        
+        if (_senders.Any(s => ReferenceEquals(s, sender)))
         {
             return;
         }
@@ -42,53 +62,73 @@ class NotificationService
         _senders.Add(sender);
     }
 
-    public void NotifyAll(string message)
+    public NotificationReport NotifyAll(string message)
     {
-        foreach (var item in _senders)
+        if (string.IsNullOrWhiteSpace(message))
         {
-
-            item.Send(message);
-            
+            throw new ArgumentException("Notification message cannot be empty.", nameof(message));
         }
+
+        NotificationReport report = new();
+
+        foreach (INotificationSender sender in _senders)
+        {
+            report.TotalAttempts++;
+
+            try
+            {
+                sender.Send(message);
+                report.SuccessfulCount++;
+            }
+            catch (Exception ex)
+            {
+                report.FailedCount++;
+
+                string senderName = sender.GetType().Name;
+
+                report.Errors.Add($"{senderName}: {ex.Message}");
+            }
+        }
+
+        return report;
     }
 }
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         NotificationService service = new();
 
-        // Test 1: No registered senders
+        // TEST 1: Empty service
         Console.WriteLine("=== TEST 1: Empty Service ===");
 
-        service.NotifyAll("Hello!");
+        var emptyReport = service.NotifyAll("Hello");
+        DisplayReport(emptyReport);
 
-        Console.WriteLine("Completed without errors.");
+        // TEST 2: Email failure, SMS and Push success
+        Console.WriteLine("\n=== TEST 2: Mixed Results ===");
 
+        EmailSender email = new();
+        SmsSender sms = new();
+        PushSender push = new();
 
-       
-        Console.WriteLine("\n=== TEST 2: Register Senders ===");
+        service.RegisterSender(email);
+        service.RegisterSender(sms);
+        service.RegisterSender(push);
 
-        EmailSender emailSender = new();
-        SmsSender smsSender = new();
+        var report = service.NotifyAll("Order completed");
+        DisplayReport(report);
 
-        service.RegisterSender(emailSender);
-        service.RegisterSender(smsSender);
-
-        service.NotifyAll("Your order is completed.");
-
-
-        
+        // TEST 3: Duplicate registration
         Console.WriteLine("\n=== TEST 3: Duplicate Sender ===");
 
-        service.RegisterSender(emailSender);
+        service.RegisterSender(email);
 
-        
-        service.NotifyAll("Your payment was received.");
+        var duplicateReport = service.NotifyAll("Payment received");
+        DisplayReport(duplicateReport);
 
-
-        
+        // TEST 4: Null sender
         Console.WriteLine("\n=== TEST 4: Null Sender ===");
 
         try
@@ -100,21 +140,52 @@ class Program
             Console.WriteLine($"Expected exception: {ex.GetType().Name}");
         }
 
+        // TEST 5: All senders fail
+        Console.WriteLine("\n=== TEST 5: All Senders Fail ===");
 
-      
-        Console.WriteLine("\n=== TEST 5: Push Notification ===");
+        NotificationService failingService = new();
 
-        service.RegisterSender(new PushSender());
+        failingService.RegisterSender(new EmailSender());
+        failingService.RegisterSender(new EmailSender());
 
-        service.NotifyAll("Security alert detected!");
+        var failedReport = failingService.NotifyAll("Test message");
+        DisplayReport(failedReport);
+
+        // TEST 6: Empty notification message
+        Console.WriteLine("\n=== TEST 6: Invalid Message ===");
+
+        try
+        {
+            service.NotifyAll("");
+        }
+        catch (ArgumentException ex)
+        {
+            Console.WriteLine($"Expected exception: {ex.GetType().Name}");
+        }
     }
-}
 
-
-class PushSender : INotificationSender
-{
-    public void Send(string message)
+    static void DisplayReport(NotificationReport report)
     {
-        Console.WriteLine($"Push notification: {message}");
+        Console.WriteLine("\n--- Notification Report ---");
+
+        Console.WriteLine($"Total attempts : {report.TotalAttempts}");
+        Console.WriteLine($"Successful     : {report.SuccessfulCount}");
+        Console.WriteLine($"Failed         : {report.FailedCount}");
+
+        if (report.Errors.Count > 0)
+        {
+            Console.WriteLine("\nErrors:");
+
+            foreach (string error in report.Errors)
+            {
+                Console.WriteLine($"- {error}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("No errors recorded.");
+        }
+
+        Console.WriteLine("---------------------------");
     }
 }
